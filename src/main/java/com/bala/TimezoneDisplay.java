@@ -47,10 +47,6 @@ public class TimezoneDisplay {
 		// Get all ZoneIds
 		Map<String, String> allZoneIds = getAllZoneIds(zoneList);
 
-		/*
-		 */
-		/*sortedMap.forEach((k, v) -> {String out = String.format("%35s (UTC%s) %n", k, v);System.out.printf(out);});
-
 		// sort by value, descending order
 		allZoneIds.entrySet().stream().sorted(Map.Entry.<String, String>comparingByValue().reversed())
 				.forEachOrdered(e -> sortedMap.put(e.getKey(), e.getValue()));
