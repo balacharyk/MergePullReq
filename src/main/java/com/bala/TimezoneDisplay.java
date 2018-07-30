@@ -50,15 +50,6 @@ public class TimezoneDisplay {
 		// sort by value, descending order
 		allZoneIds.entrySet().stream().sorted(Map.Entry.<String, String>comparingByValue().reversed())
 				.forEachOrdered(e -> sortedMap.put(e.getKey(), e.getValue()));
-
-		// print map
-		/*sortedMap.forEach((k, v) -> {
-			String out = String.format("%35s (UTC%s) %n", k, v);
-			System.out.printf(out);
-		});
-
-		System.out.println("\nTotal Zone IDs " + sortedMap.size());*/
-
 		
 		List<String> tzLst = getTimeZoneList(OffsetBase.UTC);
 		System.out.println(tzLst);
