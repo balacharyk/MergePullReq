@@ -44,10 +44,7 @@ public class TimezoneDisplay {
 		/*tz = TimeZone.getTimeZone(zone);
 		Calendar calendar = Calendar.getInstance(tz);
 
-		System.out.println("Cal.gettime{}" + calendar.getTime());
-		System.out.println("in DST? {}" + tz.inDaylightTime(calendar.getTime()));*/
-
-		/*tz = TimeZone.getTimeZone(zone);
+		tz = TimeZone.getTimeZone(zone);
 		System.out.println("before{}" + calendar.getTime());
 		System.out.println("after {}" + calendar.getTime());*/
 
