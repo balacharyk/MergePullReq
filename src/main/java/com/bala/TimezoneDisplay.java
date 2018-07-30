@@ -50,7 +50,6 @@ public class TimezoneDisplay {
 		// sort map by key
 		/*
 		 * allZoneIds.entrySet().stream() .sorted(Map.Entry.comparingByKey())
-		 * .forEachOrdered(e -> sortedMap.put(e.getKey(), e.getValue()));
 		 */
 
 		// sort by value, descending order
