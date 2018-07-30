@@ -40,15 +40,6 @@ public class TimezoneDisplay {
 		zdt = ins.atZone(zone);
 		System.out.println("zdt offDt>>" + zdt);
 
-		//getAllZoneIds(strLst);
-		/*tz = TimeZone.getTimeZone(zone);
-		Calendar calendar = Calendar.getInstance(tz);
-
-		tz = TimeZone.getTimeZone(zone);
-		System.out.println("before{}" + calendar.getTime());
-		System.out.println("after {}" + calendar.getTime());*/
-
-
 		Map<String, String> sortedMap = new LinkedHashMap<>();
 
 		List<String> zoneList = new ArrayList<>(ZoneId.getAvailableZoneIds());
